@@ -1,6 +1,6 @@
 ﻿{
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": [ "tools", "coding", "web"],
+  "categories": [ "coding", "web"],
   "identity": {
     "internalName": "GoogleAnalyticsSnippetPack"
   },

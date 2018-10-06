@@ -8,7 +8,6 @@
         <License>LICENSE.txt</License>
         <Icon>icon.png</Icon>
         <PreviewImage>icon.png</PreviewImage>
-        <Tags>snippets, snippet-pack, html, javascript, visual studio, visual studio 2017, xml, community, enterprise, open-source, professional, visual studio 2013, visual studio 2015, visual studio extension, vsix, google analytics, ga, ga tag, js, analytics</Tags>
     </Metadata>
     <Installation>
         <!--Microsoft.VisualStudio.Pro includes all SKUs such as Community, Pro, Ultimate and Enterprise-->

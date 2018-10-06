@@ -2,7 +2,8 @@
   "$schema": "http://json.schemastore.org/vsix-publish",
   "categories": [ "coding", "web"],
   "identity": {
-    "internalName": "GoogleAnalyticsSnippetPack"
+    "internalName": "GoogleAnalyticsSnippetPack",
+    "tags": [ "snippets", "snippet-pack", "html", "javascript", "visual studio", "visual studio 2017", "xml", "community", "enterprise", "open-source", "professional", "visual studio 2013", "visual studio 2015", "visual studio extension", "vsix", "google analytics", "ga", "ga tag", "js", "analytics" ]
   },
   "overview": "overview.md",
   "priceCategory": "free",

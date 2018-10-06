@@ -64,7 +64,12 @@
     <Content Include="Snippets\Name Of Snippet Pack\ae.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <None Include="Overview.md" />
+    <Content Include="extension.manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="overview.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="readme.md" />
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>

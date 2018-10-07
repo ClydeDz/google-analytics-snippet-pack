@@ -2,4 +2,7 @@
 ; Languages: "Basic", "C/C++", "CSharp", "CSS", "HTML", "JavaScript", "SQL_SSDT", "XML"
 
 [$RootKey$\Languages\CodeExpansions\JavaScript\Paths]
-"MySnippets"="$PackageFolder$\Name Of Snippet Pack"
+"JavaScript Google Analytics Snippet Pack"="$PackageFolder$\JavaScript Google Analytics Snippet Pack"
+
+[$RootKey$\Languages\CodeExpansions\HTML\Paths]
+"HTML Google Analytics Snippet Pack"="$PackageFolder$\HTML Google Analytics Snippet Pack"

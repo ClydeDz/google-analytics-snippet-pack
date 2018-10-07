@@ -1,0 +1,30 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Track user timing</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-utime</Shortcut>
+        <Description>
+          Send user timing information to Google Analytics.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>loadTime</ID>
+                <ToolTip>Integer value indicating load time.</ToolTip>
+                <Default>234</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+gtag('event', 'timing_complete', {
+  'name' : 'load',
+  'value' : $loadTime$
+});
+$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

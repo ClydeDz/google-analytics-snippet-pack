@@ -1,0 +1,37 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Send custom dimensions</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-evntdim</Shortcut>
+        <Description>
+          Sends the custom dimension to Google Analytics.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>eventName</ID>
+                <ToolTip>String value of the event action name.</ToolTip>
+                <Default>Sample_event</Default>
+            </Literal>
+            <Literal>
+              <ID>dimensionName</ID>
+              <ToolTip>String value of the dimension name.</ToolTip>
+              <Default>Sample_dimension</Default>
+            </Literal>
+            <Literal>
+              <ID>dimensionValue</ID>
+              <ToolTip>Value for the dimension.</ToolTip>
+              <Default>2</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+gtag('event', '$eventName$', {'$dimensionName$': $dimensionValue$ });
+$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

@@ -1,0 +1,5 @@
+﻿@mixin mobile-bp( $max-min, $breakpoint ) {
+    @media (#{$max-min}-width: #{$breakpoint}) {
+        @content;
+    }
+}

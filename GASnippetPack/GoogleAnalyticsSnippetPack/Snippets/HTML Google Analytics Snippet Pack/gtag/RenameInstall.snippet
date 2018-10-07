@@ -1,0 +1,40 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Rename global object and install the global tracking snippet</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-birgtag</Shortcut>
+        <Description>
+          If you want to rename gtag() global object.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>gaTrackingId</ID>
+                <ToolTip>Tracking ID of the Google Analytics property to which you want to send data.</ToolTip>
+                <Default>UA-XYXYXYXYXY-X</Default>
+            </Literal>
+            <Literal>
+              <ID>globalObject</ID>
+              <ToolTip>Enter the value you want to rename this to.</ToolTip>
+              <Default>gtag</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="html">
+            <![CDATA[
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=$gaTrackingId$"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function $globalObject$(){dataLayer.push(arguments);}
+  $globalObject$('js', new Date());
+
+  $globalObject$('config', '$gaTrackingId$');
+</script>
+$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

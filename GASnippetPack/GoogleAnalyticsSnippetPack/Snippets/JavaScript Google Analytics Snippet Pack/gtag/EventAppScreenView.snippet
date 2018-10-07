@@ -1,0 +1,35 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>App or Screen tracking</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-scrnv</Shortcut>
+        <Description>
+          Track specific screen views in Google Analytics.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>appName</ID>
+                <ToolTip>Name of your app</ToolTip>
+                <Default>Sample app</Default>
+            </Literal>
+            <Literal>
+              <ID>screenName</ID>
+              <ToolTip>Name of the screen.</ToolTip>
+              <Default>Sample screen</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+gtag('event', 'screen_view', {
+  'app_name': '$appName$',
+  'screen_name' : '$screenName$'
+});
+$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

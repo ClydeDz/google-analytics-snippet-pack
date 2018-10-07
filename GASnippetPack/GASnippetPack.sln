@@ -5,6 +5,28 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleAnalyticsSnippetPack", "GoogleAnalyticsSnippetPack\GoogleAnalyticsSnippetPack.csproj", "{1FE38445-7F26-49ED-8E25-539463BD517D}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GoogleAnalyticsSnippetPack.Web", "GoogleAnalyticsSnippetPack.Web\", "{9E0FEE6F-DA85-4BAE-BC7E-DBC0E7F9EB89}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54597"
+		Debug.AspNetCompiler.PhysicalPath = "GoogleAnalyticsSnippetPack.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54597\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54597"
+		Release.AspNetCompiler.PhysicalPath = "GoogleAnalyticsSnippetPack.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54597\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54597"
+		SlnRelativePath = "GoogleAnalyticsSnippetPack.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +37,10 @@ Global
 		{1FE38445-7F26-49ED-8E25-539463BD517D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FE38445-7F26-49ED-8E25-539463BD517D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FE38445-7F26-49ED-8E25-539463BD517D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0FEE6F-DA85-4BAE-BC7E-DBC0E7F9EB89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0FEE6F-DA85-4BAE-BC7E-DBC0E7F9EB89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0FEE6F-DA85-4BAE-BC7E-DBC0E7F9EB89}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0FEE6F-DA85-4BAE-BC7E-DBC0E7F9EB89}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

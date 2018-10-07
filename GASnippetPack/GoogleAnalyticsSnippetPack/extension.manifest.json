@@ -1,10 +1,10 @@
 ﻿{
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "categories": [ "coding", "web"],
+  "categories": [ "coding", "web", "Setup & Deployment" ],
   "identity": {
     "internalName": "GoogleAnalyticsSnippetPack"
   },
-  "overview": "overview.md",
+  "overview": "readme.md",
   "priceCategory": "free",
   "publisher": "clydedsouza",
   "private": true,

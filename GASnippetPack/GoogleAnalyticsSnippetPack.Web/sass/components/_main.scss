@@ -1,0 +1,17 @@
+﻿main {
+    section{
+        margin: 18px 0;
+    }
+
+    h2 {
+        font-family: $primary-font-family;
+        color: $base-color;
+        font-size: 40px;
+    }
+
+    .prod-grab {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

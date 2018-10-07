@@ -1,0 +1,45 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Set persistent values</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-set</Shortcut>
+        <Description>
+          Set values that will be sent with every event for a web page.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>parameterA</ID>
+                <ToolTip>Specifiy your first parameter here.</ToolTip>
+                <Default>Currency</Default>
+            </Literal>
+            <Literal>
+              <ID>valueA</ID>
+              <ToolTip>Value of your first parameter.</ToolTip>
+              <Default>NZD</Default>
+            </Literal>
+            <Literal>
+              <ID>parameterB</ID>
+              <ToolTip>Specifiy your second parameter here.</ToolTip>
+              <Default>Country</Default>
+            </Literal>
+            <Literal>
+              <ID>valueB</ID>
+              <ToolTip>Value of your second parameter.</ToolTip>
+              <Default>NZ</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+gtag('set', {
+  '$parameterA$': '$valueA$',
+  '$parameterB$': '$valueB$'
+});
+$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

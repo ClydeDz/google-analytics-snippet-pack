@@ -1,0 +1,27 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Search term event - Default Google Analytics Events</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-srchevnt</Shortcut>
+        <Description>
+          Fires a Google Analytics Event with an action of 'search', a category of 'engagement', and a search term set to what you specify.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>method</ID>
+                <ToolTip>Specify the value of the search term you want to send to Google Analytics login event.</ToolTip>
+                <Default>Sample search term</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+gtag('event', 'search', { search_term : '$method$' });
+$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

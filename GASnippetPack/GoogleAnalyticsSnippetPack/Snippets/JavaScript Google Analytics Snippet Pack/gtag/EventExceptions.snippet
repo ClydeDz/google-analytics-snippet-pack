@@ -1,0 +1,35 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Track exceptions</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-exevnt</Shortcut>
+        <Description>
+          Send exceptions to Google Analytics.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+              <ID>errorDescription</ID>
+              <ToolTip>Description of the error.</ToolTip>
+              <Default>Sample error message</Default>
+            </Literal>
+            <Literal>
+              <ID>isErrorFatal</ID>
+              <ToolTip>Boolean value indicating if the error is fatal or not. Not a mandatory parameter.</ToolTip>
+              <Default>false</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+gtag('event', 'exception', {
+  'description': '$errorDescription$',
+  'fatal': $isErrorFatal$  
+});
+$end$]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

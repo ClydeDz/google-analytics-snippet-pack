@@ -1,0 +1,32 @@
+﻿@import "mobile";
+@mixin site-links () {
+    a {
+        &, &:active, &:visited {
+            color: $base-color;
+            text-decoration: none;
+        }
+
+        &:hover, &:focus {
+            text-decoration: underline;
+            color: darken($base-color, 20%);
+        }
+    }
+}
+
+body {
+    @include site-links();
+}
+
+nav {
+    @include site-links();
+
+    @include mobile-bp(max, 468px) {
+        font-size: 15px;
+    }
+
+    margin: 32px 9px;
+
+    a {
+        text-transform: uppercase;
+    }
+}

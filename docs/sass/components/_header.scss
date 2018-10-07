@@ -1,0 +1,32 @@
+﻿@import "mobile";
+
+header {
+    min-height: 450px;
+
+    background: {
+        image: url('https://raw.githubusercontent.com/ClydeDz/fancy-comments/master/docs/images/banners/vsix-ext-familydesigns.png');
+        repeat: repeat;
+        size: contain;
+    }
+
+    div {
+        div.website-logo {
+            @include mobile-bp(max, 468px) {
+                padding-top: 95px;
+            }
+
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-top: 122px;
+        }
+    }
+
+    h1 {
+        color: white;
+        font-weight: 700;
+        font-family: $primary-font-family;
+        font-size: 50px;
+        text-transform: uppercase;
+    }
+}

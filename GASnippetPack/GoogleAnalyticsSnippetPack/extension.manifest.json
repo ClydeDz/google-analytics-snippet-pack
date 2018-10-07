@@ -7,7 +7,7 @@
   "overview": "readme.md",
   "priceCategory": "free",
   "publisher": "clydedsouza",
-  "private": true,
+  "private": false,
   "qna": true,
   "repo": "https://github.com/ClydeDz/google-analytics-snippet-pack"
 }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="a486958a-384d-4e72-b00a-8725d6280af5" Version="0.0.4" Language="en-US" Publisher="Clyde D'Souza" />
+        <Identity Id="a486958a-384d-4e72-b00a-8725d6280af5" Version="1.0.0" Language="en-US" Publisher="Clyde D'Souza" />
         <DisplayName>Google Analytics Snippet Pack</DisplayName>
         <Description xml:space="preserve">Google Analytics Snippet Pack for Visual Studio helps you write global site tag (gtag.js) code that allows you to send event data to Google Analytics.</Description>
         <MoreInfo>https://github.com/ClydeDz/google-analytics-snippet-pack</MoreInfo>

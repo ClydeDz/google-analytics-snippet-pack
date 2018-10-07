@@ -1,5 +1,7 @@
 ## Google Analytics Snippet Pack for Visual Studio
 
+[![Build Status](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_apis/build/status/Google%20Analytics%20Snippet%20Pack%20Master%20Build)](https://clydedsouza.visualstudio.com/Google%20Analytics%20Snippet%20Pack/_build/latest?definitionId=12)
+
 Google Analytics Snippet Pack for Visual Studio helps you write global site tag (gtag.js) code that allows you to send event data to Google Analytics. Due to the nature of this extension, you will find these snippets in HTML and JavaScript Google Analytics Snippet Pack is compatible right from Visual Studio 2012 to 2017 (Community, Professional and Enterprise).
 
 ![Google Analytics Snippet Pack in Visual Studio's Code Snippet Manager](https://raw.githubusercontent.com/ClydeDz/google-analytics-snippet-pack/master/GASnippetPack/GoogleAnalyticsSnippetPack.Web/images/anime/code-snip-manager.gif)

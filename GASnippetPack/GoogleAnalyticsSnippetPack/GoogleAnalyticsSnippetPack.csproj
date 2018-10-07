@@ -68,13 +68,12 @@
     <Content Include="extension.manifest.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="overview.md">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="packages.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="readme.md" />
+    <None Include="readme.md">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\BasicInstall.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

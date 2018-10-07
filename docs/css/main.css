@@ -1,14 +1,14 @@
 ﻿@import url("https://fonts.googleapis.com/css?family=Bungee|Montserrat");
 header {
   min-height: 450px;
-  background-image: url("https://raw.githubusercontent.com/ClydeDz/fancy-comments/master/docs/images/banners/vsix-ext-familydesigns.png");
+  background-image: url("https://raw.githubusercontent.com/ClydeDz/google-analytics-snippet-pack/master/GASnippetPack/GoogleAnalyticsSnippetPack.Web/images/banners/vsix-ext-familydesigns.png");
   background-repeat: repeat;
   background-size: contain; }
   header div div.website-logo {
     width: 150px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 122px; }
+    padding-top: 67px; }
     @media (max-width: 468px) {
       header div div.website-logo {
         padding-top: 95px; } }

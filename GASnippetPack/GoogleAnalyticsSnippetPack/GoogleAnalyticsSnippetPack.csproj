@@ -64,9 +64,6 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\Name Of Snippet Pack\ae.snippet">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="extension.manifest.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -77,6 +74,81 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="readme.md" />
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\BasicInstall.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\InstallDisablePageView.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\BasicInstallTwoProperty.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\InstallTransportBeacon.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\InstallTransportXhr.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\InstallTransportImage.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\SetPersistentValues.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\FullEvent.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventNoValue.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventOnlyAction.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventNoInteraction.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\DefaultEventLogin.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\DefaultEventSearchTerm.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\DefaultEventBeginCheckout.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventAppScreenView.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventUserTiming.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventExceptions.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\InstallCustomCookies.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\InstallCustomDimension.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\InstallCustomMetric.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventCustomDimension.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventCustomMetric.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\JavaScript Google Analytics Snippet Pack\gtag\EventAnonIP.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\InstallAnonymizeIP.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Snippets\HTML Google Analytics Snippet Pack\gtag\RenameInstall.snippet">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>

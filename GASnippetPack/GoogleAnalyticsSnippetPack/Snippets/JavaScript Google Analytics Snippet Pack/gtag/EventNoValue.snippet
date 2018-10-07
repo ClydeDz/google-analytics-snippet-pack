@@ -1,0 +1,40 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Send Google Analytics Events - Short version</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-evnts</Shortcut>
+        <Description>
+          Sends Google Analytics Events on a web page, events that appear in the Google Analytics Event reports. This snippet omits value.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>action</ID>
+                <ToolTip>String that will appear as the event action in Google Analytics Event reports.</ToolTip>
+                <Default>Sample action</Default>
+            </Literal>
+            <Literal>
+              <ID>category</ID>
+              <ToolTip>String that will appear as the event category.</ToolTip>
+              <Default>Sample category</Default>
+            </Literal>
+            <Literal>
+              <ID>label</ID>
+              <ToolTip>String that will appear as the event label.</ToolTip>
+              <Default>Sample label</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+gtag('event', '$action$', {
+  'event_category': '$category$',
+  'event_label': '$label$'
+});
+]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

@@ -1,0 +1,47 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Configure custom dimensions</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-cdim</Shortcut>
+        <Description>
+          Send a custom dimension to Google Analytics.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>gaTrackingId</ID>
+                <ToolTip>Tracking ID of the Google Analytics property to which you want to send data.</ToolTip>
+                <Default>UA-XYXYXYXYXY-X</Default>
+            </Literal>
+            <Literal>
+              <ID>dimensionIndex</ID>
+              <ToolTip>Numeric value for the dimension. For instance - dimension0, dimension2, etc.</ToolTip>
+              <Default>2</Default>
+            </Literal>
+            <Literal>
+              <ID>dimensionName</ID>
+              <ToolTip>Name of the custom dimension.</ToolTip>
+              <Default>Sample_dimension</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=$gaTrackingId$"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', '$gaTrackingId$', {
+    'custom_map': {'dimension$dimensionIndex$': '$dimensionName$'}
+  });
+</script>
+]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

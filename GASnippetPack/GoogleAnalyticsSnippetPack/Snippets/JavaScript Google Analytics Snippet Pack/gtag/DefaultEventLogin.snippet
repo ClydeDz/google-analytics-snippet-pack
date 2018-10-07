@@ -1,0 +1,27 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <Header>
+        <Title>Login event - Default Google Analytics Events</Title>
+        <Author>Clyde D'Souza</Author>
+        <Shortcut>ga-lgnevnt</Shortcut>
+        <Description>
+          Fires a Google Analytics Event with an action of 'login', a category of 'engagement', and a label set to what you specify.
+        </Description>
+        <SnippetTypes>
+            <SnippetType>Expansion</SnippetType>
+        </SnippetTypes>
+    </Header>
+    <Snippet>
+        <Declarations>
+            <Literal>
+                <ID>method</ID>
+                <ToolTip>Specify the value of the method you want to send to Google Analytics login event.</ToolTip>
+                <Default>Google</Default>
+            </Literal>
+        </Declarations>
+        <Code Language="JavaScript">
+            <![CDATA[
+gtag('event', 'login', { method : '$method$' });
+]]>
+        </Code>
+    </Snippet>
+</CodeSnippet>

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-	<Metadata>
-		<Identity Id="a486958a-384d-4e72-b00a-8725d6280af5" Version="1.0.0" Language="en-US" Publisher="Clyde D'Souza" />
-		<DisplayName>Google Analytics Snippet Pack</DisplayName>
-		<Description xml:space="preserve">Google Analytics Snippet Pack for Visual Studio helps you write global site tag (gtag.js) code that allows you to send event data to Google Analytics.</Description>
-		<MoreInfo>https://github.com/ClydeDz/google-analytics-snippet-pack</MoreInfo>
-		<License>LICENSE.txt</License>
-		<GettingStartedGuide>https://marketplace.visualstudio.com/items?itemName=clydedsouza.GoogleAnalyticsSnippetPack</GettingStartedGuide>
-		<Icon>icon.png</Icon>
-		<PreviewImage>icon.png</PreviewImage>
-		<Tags>snippet pack;javascript;html;visual studio;open source;vsix;google analytics;gtag.js;ga;analytics</Tags>
-	</Metadata>
-	<Installation>
-		<!--Microsoft.VisualStudio.Pro includes all SKUs such as Community, Pro, Ultimate and Enterprise-->
-		<InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0, 17.0)" />
-		<InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Community" />
-		<InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
-	</Installation>
-	<Prerequisites>
-		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
-	</Prerequisites>
-	<Assets>
-		<Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Snippets\snippets.pkgdef" />
-	</Assets>
+    <Metadata>
+        <Identity Id="a486958a-384d-4e72-b00a-8725d6280af5" Version="1.0.1" Language="en-US" Publisher="Clyde D'Souza" />
+        <DisplayName>Google Analytics Snippet Pack</DisplayName>
+        <Description xml:space="preserve">Google Analytics Snippet Pack for Visual Studio helps you write global site tag (gtag.js) code that allows you to send event data to Google Analytics.</Description>
+        <MoreInfo>https://github.com/ClydeDz/google-analytics-snippet-pack</MoreInfo>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://marketplace.visualstudio.com/items?itemName=clydedsouza.GoogleAnalyticsSnippetPack</GettingStartedGuide>
+        <Icon>icon.png</Icon>
+        <PreviewImage>icon.png</PreviewImage>
+        <Tags>snippet pack;javascript;html;visual studio;open source;vsix;google analytics;gtag.js;ga;analytics</Tags>
+    </Metadata>
+    <Installation>
+        <!--Microsoft.VisualStudio.Pro includes all SKUs such as Community, Pro, Ultimate and Enterprise-->
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0, 17.0)" />
+        <InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Community" />
+        <InstallationTarget Version="[11.0,17.0)" Id="Microsoft.VisualStudio.Enterprise" />
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Snippets\snippets.pkgdef" />
+    </Assets>
 </PackageManifest>
